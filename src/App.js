@@ -1,12 +1,12 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './views/Home';
-import AllBeers from './views/AllBeers';
-import RandomBeer from './views/RandomBeer';
-import NewBeer from './views/NewBeer';
+import Home from './components/Home';
+import AllBeers from './components/AllBeers';
+import RandomBeer from './components/RandomBeer';
+import NewBeer from './components/NewBeer';
 import NavBar from './components/NavBar';
-import BeerDetails from './views/BeerDetails';
+import BeerDetails from './components/BeerDetails';
 
 function App() {
   return (
